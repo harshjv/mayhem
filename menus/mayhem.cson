@@ -1,0 +1,29 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': '[ab]use unicode to bring tragedy'
+      'command': 'mayhem:boom'
+    }
+    {
+      'label': 'Fix unicode tragedy'
+      'command': 'mayhem:fix'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Mayhem'
+      'submenu': [
+        {
+          'label': 'Bring tragedy'
+          'command': 'mayhem:boom'
+        }
+        {
+          'label': 'Fix tragedy'
+          'command': 'mayhem:fix'
+        }
+      ]
+    ]
+  }
+]

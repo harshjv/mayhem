@@ -1,0 +1,20 @@
+{
+  "name": "mayhem",
+  "main": "./lib/mayhem",
+  "version": "0.0.1",
+  "description": "[ab]using unicode to create tragedy",
+  "keywords": [
+    "unicode",
+    "homoglyph"
+  ],
+  "activationCommands": {
+    "atom-workspace": ["mayhem:boom", "mayhem:fix"]
+  },
+  "repository": "https://github.com/harshjv/mayhem",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
