@@ -2,7 +2,7 @@
   "name": "mayhem",
   "main": "./lib/mayhem",
   "version": "0.1.1",
-  "description": "[ab]using unicode to create tragedy",
+  "description": "Mayhem Atom package for ASCII to closest homoglyph conversion",
   "keywords": [
     "unicode",
     "homoglyph"
