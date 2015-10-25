@@ -1,11 +1,11 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': '[ab]use unicode to bring tragedy'
+      'label': 'ASCII -> Homoglyphs'
       'command': 'mayhem:boom'
     }
     {
-      'label': 'Fix unicode tragedy'
+      'label': 'Homoglyphs -> ASCII'
       'command': 'mayhem:fix'
     }
   ]
@@ -16,11 +16,11 @@
       'label': 'Mayhem'
       'submenu': [
         {
-          'label': 'Bring tragedy'
+          'label': 'ASCII -> Homoglyphs'
           'command': 'mayhem:boom'
         }
         {
-          'label': 'Fix tragedy'
+          'label': 'Homoglyphs -> ASCII'
           'command': 'mayhem:fix'
         }
       ]
