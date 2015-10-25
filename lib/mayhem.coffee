@@ -14,19 +14,24 @@ module.exports = Mayhem =
     @subscriptions.dispose()
 
   transform: (map) ->
+    selectedText = true
     if editor = atom.workspace.getActiveTextEditor()
-        ranges = editor.getSelectedBufferRanges()
-        if not text = editor.getSelectedText()
-            text = editor.getText()
-        k = 0
-        newText = ""
-        while k < text.length
-            ch = text.charAt(k)
-            if map[ch]?
-                ch = map[ch]
-            ++k
-            newText += ch
-        editor.setText(newText)
+      ranges = editor.getSelectedBufferRanges()
+      if not text = editor.getSelectedText()
+        selectedText = false
+        text = editor.getText()
+      k = 0
+      newText = ""
+      while k < text.length
+        ch = text.charAt(k)
+        if map[ch]?
+          ch = map[ch]
+        ++k
+        newText += ch
+    if selectedText
+      editor.insertText(newText)
+    else
+      editor.setText(newText)
 
   boom: ->
     @transform(Map.boom)
