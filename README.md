@@ -3,6 +3,10 @@
 Mayhem Atom package for ASCII to closest homoglyph conversion.
 
 
+## Demo
+![Mayhem Atom Package](http://i.imgur.com/lozF4z4.gif)
+
+
 ## Installation
 
 Install `mayhem` from Atom settings *or*
@@ -12,7 +16,7 @@ Install `mayhem` from Atom settings *or*
 
 ## Usage
 
-### For ASCII to closest homoglyph conversion,
+### To closest homoglyph conversion;
 
     Command Palette -> Mayhem:Boom tragedy
 
@@ -21,7 +25,7 @@ Install `mayhem` from Atom settings *or*
     Packages -> Mayhem -> Bring
 
 
-### To revert back and fix conversion,
+### To revert back;
 
     Command Palette -> Mayhem:Fix
 
@@ -30,13 +34,10 @@ Install `mayhem` from Atom settings *or*
     Packages -> Mayhem -> Fix tragedy
 
 
-## Demonstration
-![Mayhem Atom Package](http://i.imgur.com/lozF4z4.gif)
-
-
 ## Atom Package
 
 [atom.io/packages/mayhem](https://atom.io/packages/mayhem)
+
 
 ## Inspiration
 * [reinderien/mimic](https://github.com/reinderien/mimic)
