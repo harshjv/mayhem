@@ -1,7 +1,7 @@
 {
   "name": "mayhem",
   "main": "./lib/mayhem",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Mayhem Atom package for ASCII to closest homoglyph conversion",
   "keywords": [
     "unicode",
