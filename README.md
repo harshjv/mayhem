@@ -4,7 +4,7 @@ Mayhem Atom package for ASCII to closest homoglyph conversion.
 
 
 ## Demo
-![Mayhem Atom Package](http://i.imgur.com/lozF4z4.gif)
+![Mayhem Atom Package](./mayhem.gif?raw=true)
 
 
 ## Installation
